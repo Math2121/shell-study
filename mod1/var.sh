@@ -41,3 +41,5 @@ echo "PID $$"
 echo $0
 
 
+VALOR_INPUT=$1
+if [$VALOR_INPUT -gt 10]; then echo "$0 - $$"; fi
